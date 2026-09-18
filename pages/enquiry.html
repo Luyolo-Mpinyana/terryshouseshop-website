@@ -1,21 +1,88 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <!-- Metadata and Page Title -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Terry's House Shop - Enquiries</title>
+    <!-- Link to External Stylesheet -->
+    <link rel="stylesheet" href="../assets/css/style.css">
 </head>
 <body>
-    <h2 align="center"> Terry's House Shop - Enquiries</h2>
-    <p>If you have any enquiriesyou may contact us through the following contact details or you could look through  the website for more information.</p>
-    <p> For any enquiries regarding our store in the area feel free to contact us through:</p>
+
+    <!-- Top Information Bar Component -->
+    <div class="info-bar">
+        <p>THE MOST CONVENIENT QUICK SHOP IN YOUR LOCAL NEIGHBORHOOD | Open Monday - Sunday: 06:00 - 20:00</p>
+    </div>
+
+    <!-- Main Navigation Header Component -->
+    <header>
+        <h1>Terry’s House Shop</h1>
+        <nav>
+            <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="product.html">Products & Prices</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+                <li><a href="enquiry.html">Enquiries</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main Content Area -->
+    <main>
+        <!-- Customer Enquiry Section & Form -->
+        <section id="enquiry">
+            <h2 align="center">Terry's House Shop - Customer Enquiry Form</h2>
+            <p><em>Have a question, feedback, or looking for specific stock? Fill out the form below and we will get back to you!</em></p>
+            <hr>
+
+            <!-- User Information Input Form -->
+            <form action="#" method="POST" class="enquiry-form">
+                <div class="form-group" style="margin-bottom: 1rem;">
+                    <label for="firstname"><strong>First Name:</strong></label><br>
+                    <input type="text" id="firstname" name="firstname" required placeholder="Enter your first name" style="width: 100%; padding: 0.5rem; margin-top: 0.25rem;">
+                </div>
+
+                <div class="form-group" style="margin-bottom: 1rem;">
+                    <label for="surname"><strong>Surname:</strong></label><br>
+                    <input type="text" id="surname" name="surname" required placeholder="Enter your surname" style="width: 100%; padding: 0.5rem; margin-top: 0.25rem;">
+                </div>
+
+                <div class="form-group" style="margin-bottom: 1rem;">
+                    <label for="phone"><strong>Phone Number:</strong></label><br>
+                    <input type="tel" id="phone" name="phone" required placeholder="e.g. 082 123 4567" style="width: 100%; padding: 0.5rem; margin-top: 0.25rem;">
+                </div>
+
+                <div class="form-group" style="margin-bottom: 1rem;">
+                    <label for="email"><strong>Email Address:</strong></label><br>
+                    <input type="email" id="email" name="email" required placeholder="e.g. name@example.com" style="width: 100%; padding: 0.5rem; margin-top: 0.25rem;">
+                </div>
+
+                <div class="form-group" style="margin-bottom: 1rem;">
+                    <label for="message"><strong>Enquiry Details / Message:</strong></label><br>
+                    <textarea id="message" name="message" rows="5" required placeholder="Type your message or product request here..." style="width: 100%; padding: 0.5rem; margin-top: 0.25rem;"></textarea>
+                </div>
+
+                <button type="submit" class="btn">Submit Enquiry</button>
+            </form>
+
+            <hr style="margin: 2rem 0;">
+
+            <h3>Alternative Contact Details</h3>
+            <p>For any direct enquiries regarding our store in the area, feel free to contact us through:</p>
             <p><strong>Address:</strong> 232 Van Der Stel St, Rowallan Park, Gqeberha, 6025</p>
             <p><strong>Phone:</strong> 041-371-2665</p>
-        <!-- Enquiry Footer -->
-    
-</body>
-<footer>
-        <p align="center" style="font-size: 10px"> Terry’s House Shop. All Rights Reserved.</p>
-        
+        </section>
+    </main>
+
+    <hr>
+
+    <!-- Page Footer Component -->
+    <footer>
+        <p align="center" style="font-size: 10px">Terry’s House Shop. All Rights Reserved.</p>
     </footer>
+
+</body>
 </html>
